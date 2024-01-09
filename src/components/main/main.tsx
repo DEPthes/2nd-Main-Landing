@@ -39,7 +39,7 @@ const Main = () => {
       </div>
       <div
         ref={ref2}
-        className={`transition-opacity ease-in duration-700 my-200 tablet:my-[250px] ${
+        className={`my-200 tablet:my-[250px] ${
           isVisible2
             ? "animate-fade-right animate-once animate-ease-in-out"
             : "opacity-0"
@@ -56,7 +56,7 @@ const Main = () => {
       </div>
       <div
         ref={ref3}
-        className={`transition-opacity ease-in duration-700  ${
+        className={` ${
           isVisible3
             ? "animate-fade-left animate-once animate-ease-in-out"
             : "opacity-0"
@@ -73,8 +73,8 @@ const Main = () => {
       </div>
       <div
         ref={ref4}
-        className={`transition-opacity ease-in duration-700  my-[300px] ${
-          isVisible4 ? "opacity-100" : "opacity-0"
+        className={`  my-[280px]  ${
+          isVisible4 ? "animate-fade-up animate-ease-in-out" : "opacity-0"
         }`}
         style={{
           height: "fit-content",

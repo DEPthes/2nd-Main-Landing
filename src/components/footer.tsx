@@ -9,7 +9,7 @@ import Depth from "../../public/icons/DEPth.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-[#00000030] w-full py-24 px-12 box-border tablet:p-64">
+    <div className="bg-[#00000030] font-pretendard font-regular  w-full py-24 px-12 box-border tablet:p-64">
       <div>
         <MainLogo className=" object-contain" />
       </div>
