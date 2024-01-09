@@ -3,9 +3,9 @@ import UpBtn from "@/components/upBtn";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import React from "react";
-import Service1Detail from "../../../../public/images/Service1Detail.png";
-import Service2Detail from "../../../../public/images/Service2Detail.png";
-import Service3Detail from "../../../../public/images/Service3Detail.png";
+import Service1Detail from "../../../../public/images/service1Detail.png";
+import Service2Detail from "../../../../public/images/service2Detail.png";
+import Service3Detail from "../../../../public/images/service3Detail.png";
 
 const serviceDetails = [
   { id: 1, img: <Image src={Service1Detail} alt="Service1Detail" /> },
