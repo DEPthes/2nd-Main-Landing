@@ -7,7 +7,7 @@ const second2 = () => {
     <div className=" text-12 tablet:text-30 px-16">
       <div className="mt-100 tablet:mt-200 flex flex-col items-end text-right ">
         <Image
-          className="tablet:w-[433px] tablet:h-auto object-cover"
+          className="w-238 h-70 tablet:w-[433px] tablet:h-auto object-cover"
           src={DEPthSlogan}
           alt="depthslogan"
         />

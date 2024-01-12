@@ -7,9 +7,36 @@ import Service2Logo from "../../../public/images/service2Logo.png";
 import Service3Logo from "../../../public/images/service3Logo.png";
 
 export const servicesInfo = [
-  { id: 1, Logo: <Image src={Service1Logo} alt="Service1Logo" /> },
-  { id: 2, Logo: <Image src={Service2Logo} alt="Service2Logo" /> },
-  { id: 3, Logo: <Image src={Service3Logo} alt="Service3Logo" /> },
+  {
+    id: 1,
+    Logo: (
+      <Image
+        className="w-204 h-204 tablet:w-360 tablet:h-360 object-cover"
+        src={Service1Logo}
+        alt="Service1Logo"
+      />
+    ),
+  },
+  {
+    id: 2,
+    Logo: (
+      <Image
+        className="w-204 h-204 tablet:w-360 tablet:h-360 object-cover"
+        src={Service2Logo}
+        alt="Service2Logo"
+      />
+    ),
+  },
+  {
+    id: 3,
+    Logo: (
+      <Image
+        className="w-204 h-204 tablet:w-360 tablet:h-360 object-cover"
+        src={Service3Logo}
+        alt="Service3Logo"
+      />
+    ),
+  },
 ];
 
 const serviceInfo = () => {

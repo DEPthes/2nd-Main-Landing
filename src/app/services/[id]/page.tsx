@@ -1,4 +1,5 @@
 "use client";
+import SEO from "@/components/SEO";
 import UpBtn from "@/components/upBtn";
 import Image from "next/image";
 import { useParams } from "next/navigation";
@@ -18,10 +19,14 @@ const Page = () => {
   const service = serviceDetails.find((i) => i.id === id);
   console.log(service);
   return (
-    <div className="mt-110">
-      <div className="px-16 tablet:px-0">{service?.img}</div>
-      <UpBtn />
-    </div>
+    <>
+      {" "}
+      <SEO />{" "}
+      <div className="mt-110">
+        <div className="px-16 tablet:px-0">{service?.img}</div>
+        <UpBtn />
+      </div>
+    </>
   );
 };
 

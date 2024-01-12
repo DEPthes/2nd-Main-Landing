@@ -39,7 +39,7 @@ const Main = () => {
       </div>
       <div
         ref={ref2}
-        className={`my-200 tablet:my-[250px] ${
+        className={`my-50 tablet:my-[250px] ${
           isVisible2
             ? "animate-fade-right animate-once animate-ease-in-out"
             : "opacity-0"
