@@ -4,7 +4,7 @@ import poster from "../../../public/images/mainposter.png";
 import mainMap from "../../../public/images/map.png";
 import SEO from "@/components/SEO";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <SEO />{" "}
@@ -31,4 +31,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

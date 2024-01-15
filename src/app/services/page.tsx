@@ -3,7 +3,7 @@ import React, { Suspense } from "react";
 import ServiceInfo from "@/components/services/serviceInfo";
 import SEO from "@/components/SEO";
 
-const page = () => {
+const Page = () => {
   return (
     <>
       {" "}
@@ -15,4 +15,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
