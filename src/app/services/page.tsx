@@ -8,7 +8,7 @@ const Page = () => {
     <>
       {" "}
       <SEO />{" "}
-      <div className="mt-110">
+      <div className="mt-100 mb-110">
         <ServiceInfo />
       </div>
     </>

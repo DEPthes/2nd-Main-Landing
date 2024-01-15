@@ -9,9 +9,36 @@ import Service2Detail from "../../../../public/images/service2Detail.jpg";
 import Service3Detail from "../../../../public/images/service3Detail.png";
 
 const serviceDetails = [
-  { id: 1, img: <Image src={Service1Detail} alt="Service1Detail" /> },
-  { id: 2, img: <Image src={Service2Detail} alt="Service2Detail" /> },
-  { id: 3, img: <Image src={Service3Detail} alt="Service3Detail" /> },
+  {
+    id: 1,
+    img: (
+      <Image
+        src={Service1Detail}
+        className="tablet:w-[1152px] w-358"
+        alt="Service1Detail"
+      />
+    ),
+  },
+  {
+    id: 2,
+    img: (
+      <Image
+        src={Service2Detail}
+        className="tablet:w-[1152px] w-358"
+        alt="Service2Detail"
+      />
+    ),
+  },
+  {
+    id: 3,
+    img: (
+      <Image
+        src={Service3Detail}
+        className="tablet:w-[1152px] w-358"
+        alt="Service3Detail"
+      />
+    ),
+  },
 ];
 const Page = () => {
   const { id: pathId } = useParams();
