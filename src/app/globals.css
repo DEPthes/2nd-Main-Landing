@@ -18,29 +18,33 @@
 
 @font-face {
   font-family: "Pretendard-Regular";
-  src: url("/public/fonts/Pretendard-Regular.woff2") format("woff");
+  src: url("/fonts/Pretendard-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Pretendard-Medium";
-  src: url("/public/fonts/Pretendard-Medium.woff2") format("woff");
+  src: url("/fonts/Pretendard-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Pretendard-SemiBold";
-  src: url("/public/fonts/Pretendard-SemiBold.woff2") format("woff");
+  src: url("/fonts/Pretendard-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Pretendard-Light";
-  src: url("/public/fonts/Pretendard-Light.woff2") format("woff");
+  src: url("/fonts/Pretendard-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 
 body {
   font-family: "pretendard";
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
 }
