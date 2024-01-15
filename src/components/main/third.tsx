@@ -4,7 +4,7 @@ import mainLogo from "../../../public/images/mainLogo.png";
 
 const Third = () => {
   return (
-    <div className="font-pretendard  flex flex-col tablet:flex-row-reverse items-center justify-center text-center  px-16">
+    <div className="flex flex-col tablet:flex-row-reverse items-center justify-center text-center  px-16">
       <Image
         className=" w-[162px] h-[162px] tablet:w-[394px] tablet:h-[394px] mb-24"
         src={mainLogo}

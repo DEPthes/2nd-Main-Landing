@@ -30,7 +30,7 @@ const Header = () => {
   ];
 
   return (
-    <nav className="font-pretendard font-medium z-header fixed w-full top-0 bg-[#00000030] backdrop-blur-sm   px-28 py-12 tablet:px-64 flex items-center justify-between ">
+    <nav className=" font-medium z-header fixed w-full top-0 bg-[#00000030] backdrop-blur-sm   px-28 py-12 tablet:px-64 flex items-center justify-between ">
       <div className="">
         <Image className="w-159 tablet:w-218 h-auto" src={Logo} alt="logo" />
       </div>
