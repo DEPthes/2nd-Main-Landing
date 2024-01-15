@@ -24,7 +24,7 @@ const Main = () => {
     <div style={{ height: "fit-content", overflow: "hidden" }}>
       <div
         ref={ref1}
-        className={`transition-opacity ease-in duration-700 ${
+        className={`transition-opacity ease-in duration-700 tablet:mt-[-150px] ${
           isVisible1 ? "opacity-100" : "opacity-0"
         }`}
         style={{

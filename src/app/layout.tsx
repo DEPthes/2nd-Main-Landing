@@ -9,6 +9,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://2nd-main-project.depth-mju.co.kr/"),
   title: "Goal in! Demoday in-DEPth",
   description:
     "명지대학교 프로젝트형 IT 동아리 DEPth 2기의 마지막 여정, 3개의 서비스를 만나보세요",
