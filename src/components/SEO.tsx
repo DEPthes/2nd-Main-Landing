@@ -18,10 +18,6 @@ const SEO = () => {
         property="og:url"
         content="https://2nd-main-project.depth-mju.co.kr/"
       />
-      <meta
-        property="og:image"
-        content="https://2nd-main-project.depth-mju.co.kr/_next/static/media/og.bb2d058c.png"
-      />
       <meta property="og:locale" content="ko_KR" />
     </Head>
   );
