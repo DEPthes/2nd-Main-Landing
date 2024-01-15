@@ -42,7 +42,7 @@
 }
 
 body {
-  font-family: "Pretendard-Regular";
+  font-family: var(Pretendard-Regular);
   padding: 0;
   margin: 0;
   height: 100%;
